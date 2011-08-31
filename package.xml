@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="net.hawkes.admintools.wcf.functions.commercial" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+    <packageinformation>
+        <packagename>AdminTools 2 WCF Commercial Functions</packagename>
+        <packagename language="de">AdminTools 2 WCF kommerzielle Funktionen</packagename>
+        <packagename language="de-informal">AdminTools 2 WCF kommerzielle Funktionen</packagename>
+        <packagedescription>This is a core of functions for the commercial WCF packages. This package requires some commercial WCF packages. Included functions: Prune PMs</packagedescription>        
+        <packagedescription language="de"><![CDATA[Dieses Paket liefert einige WCF Funktionen für die Admin Tools. Es ist sind kommerzielle WCF Pakete erforderlich. Enthaltene Funktionen: PN Löschung.]]></packagedescription>
+        <packagedescription language="de-informal"><![CDATA[Dieses Paket einige WCF Funktionen für die Admin Tools. Es ist sind kommerzielle WCF Pakete erforderlich. Enthaltene Funktionen: PN Löschung.]]></packagedescription>
+        <version>1.0.1</version>
+        <date>2011-06-18</date>
+        <standalone>0</standalone>
+        <isUnique>1</isUnique> 
+        <plugin>com.woltlab.wcf.data.message.pm</plugin>
+        <packageurl>http://www.wbb3addons.de</packageurl>
+    </packageinformation>
+
+    <authorinformation>
+        <author>Oliver Kliebisch</author>
+        <authorurl>http://www.oliver-kliebisch.de</authorurl>
+    </authorinformation>
+
+    <requiredpackages>
+        <requiredPackage minversion="1.0.0">com.woltlab.wcf</requiredPackage>
+        <requiredPackage>net.hawkes.admintools</requiredPackage>
+        <requiredpackage>com.woltlab.wcf.data.message.pm</requiredpackage>                
+    </requiredpackages>
+
+    <instructions type="install">
+        <files>files.tar</files>                
+        <admintoolsfunction>admintools.xml</admintoolsfunction>        
+        <eventlistener>eventlistener.xml</eventlistener>
+        <languages languagecode="de">de.xml</languages>               
+        <languages languagecode="de-informal">de-informal.xml</languages>
+        <languages languagecode="en">en.xml</languages>        
+    </instructions>
+    
+    <instructions type="update" fromversion="1.0.0">
+        <empty></empty>
+    </instructions>
+
+</package>

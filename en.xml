@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+<category name="wcf.acp.admintools">		
+		<item name="wcf.acp.admintools.function.messages.prunePMs"><![CDATA[Prune PMs]]></item>
+		<item name="wcf.acp.admintools.function.messages.prunePMs.success"><![CDATA[{$pmCount} private Messages have been deleted.]]></item>
+		<item name="wcf.acp.admintools.function.messages.prunePMs.infoBox"><![CDATA[Private messages are deleted after {$pruneTime} days.]]></item>
+	</category>
+	<category name="wcf.acp.admintools.option">
+		<item name="wcf.acp.admintools.option.category.messages"><![CDATA[Messages]]></item>
+		<item name="wcf.acp.admintools.option.category.messages.prunePMs"><![CDATA[Prune PMs]]></item>
+		<item name="wcf.acp.admintools.option.category.messages.prunePMs.description"><![CDATA[This function deletes private messages which are older than a certain time (in days). This cronjob can be executed as a cronjob regularly.]]></item>		
+		<item name="wcf.acp.admintools.option.messages.prunePMs.time"><![CDATA[Delete PMs older than]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.time.description"><![CDATA[Enter after how many days PMs should be deleted. 0 deactivates this function.]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.excludeFolders"><![CDATA[Exclude folders]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.excludeFolders.description"><![CDATA[Activate this option if you want to exlcude folders from deletion.]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.ignoredUserIDs"><![CDATA[Exclude users]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.ignoredUserIDs.description"><![CDATA[Enter the <strong>user IDs</strong> delimited by a comma, whose PMs shall not be deleted.]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.ignoredUsergroupIDs"><![CDATA[Exclude usergroups]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.ignoredUsergroupIDs.description"><![CDATA[Enter the <strong>usergroup IDs</strong> delimited by a comma, whose PMs shall not be deleted.]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.showInfoBox"><![CDATA[Show information]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.showInfoBox.description"><![CDATA[Displays an information that PMs are deleted after the configured time.]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.showInfoBoxToAll"><![CDATA[Show information always]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.showInfoBoxToAll.description"><![CDATA[Displays the information to users who are not affected by the deletion.]]></item>
+	</category>
+</language>

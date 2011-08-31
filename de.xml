@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+<category name="wcf.acp.admintools">		
+		<item name="wcf.acp.admintools.function.messages.prunePMs"><![CDATA[PN Autolöschung]]></item>
+		<item name="wcf.acp.admintools.function.messages.prunePMs.success"><![CDATA[{$pmCount} private Nachrichten wurden erfolgreich gelöscht.]]></item>
+		<item name="wcf.acp.admintools.function.messages.prunePMs.infoBox"><![CDATA[Private Nachrichten werden nach {$pruneTime} Tagen automatisch gelöscht.]]></item>
+	</category>
+	<category name="wcf.acp.admintools.option">
+		<item name="wcf.acp.admintools.option.category.messages"><![CDATA[Nachrichten]]></item>
+		<item name="wcf.acp.admintools.option.category.messages.prunePMs"><![CDATA[PN Autolöschung]]></item>
+		<item name="wcf.acp.admintools.option.category.messages.prunePMs.description"><![CDATA[Diese Funktion löscht private Nachrichten, die älter als eine bestimmte Anzahl an Tagen sind. Diese Funktion kann als Cronjob regelmäßig ausgeführt werden.]]></item>		
+		<item name="wcf.acp.admintools.option.messages.prunePMs.time"><![CDATA[Private Nachrichten löschen ab]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.time.description"><![CDATA[Geben Sie hier an, nach wieviel Tagen private Nachrichten gelöscht werden sollen. 0 = deaktiviert.]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.excludeFolders"><![CDATA[Ordner ausschließen]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.excludeFolders.description"><![CDATA[Löscht keine privaten Nachrichten, wenn ein Benutzer die private Nachricht in einen Ordner verschoben hat.]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.ignoredUserIDs"><![CDATA[Benutzer ausschließen]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.ignoredUserIDs.description"><![CDATA[Geben Sie hier die <strong>Benutzer-IDs</strong> per Komma getrennt an, deren PNs nicht gelöscht werden sollen.]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.ignoredUsergroupIDs"><![CDATA[Benutzergruppen ausschließen]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.ignoredUsergroupIDs.description"><![CDATA[Geben Sie hier die <strong>Benutzergruppen-IDs</strong> per Komma getrennt an, deren PNs nicht gelöscht werden sollen.]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.showInfoBox"><![CDATA[Information anzeigen]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.showInfoBox.description"><![CDATA[Zeigt eine Information in den privaten Nachrichten an, dass PNs nach der oben eingestellten Zahl an Tagen gelöscht werden.]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.showInfoBoxToAll"><![CDATA[Information immer anzeigen]]></item>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.showInfoBoxToAll.description"><![CDATA[Zeigt die Information auch Benutzer an, die von der Löschung nicht betroffen sind.]]></item>
+	</category>
+</language>
